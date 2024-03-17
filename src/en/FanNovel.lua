@@ -61,7 +61,7 @@ local GENRES = {
 return Require("FanNovel")("https://www.fannovels.com", {
 	id = 1308639964,
 	name = "FanNovel",
-	imageURL = "https://raw.githubusercontent.com/Adrianjack/Shosetsu-extensions/main/Icons/Untitled56%20(1).png",
+	imageURL = "https://raw.githubusercontent.com/Adrianjack/Shosetsu-extensions/main/Icons/Picsart_24-03-17_11-26-04-475.png",
 	shrinkURLNovel = "^.-fannovels%.com",
 	hasCloudFlare = true,
 

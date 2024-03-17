@@ -61,6 +61,7 @@ local GENRES = {
 return Require("FanNovel")("https://www.fannovels.com", {
 	id = 1308639964,
 	name = "FanNovel",
+	imageURL = "https://www.fannovels.com/d/img/logo.png",
 	shrinkURLNovel = "^.-fannovels%.com",
 	hasCloudFlare = true,
 

@@ -1,4 +1,4 @@
--- {"id":1308639964,"ver":"1.1.4","libVer":"1.0.0","author":"Jobobby04","dep":["ReadWN>=1.0.11"]}
+-- {"id":1308639969,"ver":"1.1.4","libVer":"1.0.0","author":"Jobobby04","dep":["ReadWN>=1.0.11"]}
 
 local GENRES = {
 	"All",
@@ -59,7 +59,7 @@ local GENRES = {
 }
 
 return Require("FanNovel")("https://www.fannovels.com", {
-	id = 1308639964,
+	id = 1308639969,
 	name = "FanNovel",
 	imageURL = "https://raw.githubusercontent.com/Adrianjack/Shosetsu-extensions/main/Icons/Picsart_24-03-17_11-26-04-475.png",
 	shrinkURLNovel = "^.-fannovels%.com",

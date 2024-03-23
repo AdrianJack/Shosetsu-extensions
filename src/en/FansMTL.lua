@@ -1,4 +1,4 @@
--- {"id":89898000,"ver":"1.1.5","libVer":"1.0.0","author":"Jobobby04","dep":["ReadWN>=1.0.11"]}
+-- {"id":1308639965,"ver":"1.1.5","libVer":"1.0.0","author":"Jobobby04","dep":["ReadWN>=1.0.11"]}
 
 local GENRES = {
 	"All",
@@ -59,7 +59,7 @@ local GENRES = {
 }
 
 return Require("FansMTL")("https://www.fansmtl.com", {
-	id = 89898000,
+	id = 1308639965,
 	name = "FansMTL",
 	shrinkURLNovel = "^.-fansmtl%.com",
 	hasCloudFlare = true,

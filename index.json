@@ -9,7 +9,7 @@
     {
       "name": "FanNovel",
       "fileName": "FanNovel",
-      "imageURL": "https://raw.githubusercontent.com/Adrianjack/Shosetsu-extensions/main/Icons/Picsart_24-03-17_11-26-04-475.png",
+      "imageURL": "https://raw.githubusercontent.com/Adrianjack/Shosetsu-extensions/main/Icons/Untitled58_20240323111948.png",
       "id": 1308639962,
       "lang": "en",
       "ver": "1.0.0",
@@ -19,7 +19,7 @@
     {
       "name": "ReadWN",
       "fileName": "ReadWN",
-      "imageURL": "",
+      "imageURL": "https://raw.githubusercontent.com/Adrianjack/Shosetsu-extensions/main/Icons/Untitled58_20240323111955.png",
       "id": 1308639964,
       "lang": "en",
       "ver": "1.1.5",
@@ -27,31 +27,11 @@
       "md5": ""
     },
     {
-      "name": "LightNovelMeta",
-      "fileName": "LightNovelMeta",
-      "imageURL": "",
-      "id": 1308639965,
+      "name": "FansMTL",
+      "fileName": "FansMTL",
+      "imageURL": "https://raw.githubusercontent.com/Adrianjack/Shosetsu-extensions/main/Icons/Untitled58_20240323111555.png",
+      "id": 00098,
       "lang": "en",
-      "ver": "1.0.4",
-      "libVer": "1.0.0",
-      "md5": ""
-    },
-    {
-      "name": "ArchiveOfOurOwn",
-      "fileName": "ArchiveOfOurOwn",
-      "imageURL": "",
-      "id": 1308639966,
-      "lang": "all",
-      "ver": "1.0.5",
-      "libVer": "1.0.0",
-      "md5": ""
-    },
-    {
-      "name": "Hentai Foundry",
-      "fileName": "HentaiFoundry",
-      "imageURL": "",
-      "id": 1308639967,
-      "lang": "all",
       "ver": "1.0.0",
       "libVer": "1.0.0",
       "md5": ""

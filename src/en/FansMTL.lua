@@ -58,7 +58,7 @@ local GENRES = {
 	"Virtual Reality"
 }
 
-return Require("FansMTL")("https://www.fansmtl.com", {
+return Require("ReadWN")("https://www.fansmtl.com", {
 	id = 89898000,
 	name = "FansMTL",
 	shrinkURLNovel = "^.-fansmtl%.com",

@@ -58,11 +58,11 @@ local GENRES = {
 	"Virtual Reality"
 }
 
-return Require("FanNovel-Chapters")("https://www.fannovels.com", {
+return Require("FanNovelChapters")("https://www.fannovels.com", {
 	id = 1308639965,
-	name = "FanNovel-Chapters",
+	name = "FanNovelChapters",
 	shrinkURLNovel = "^.-fannovels%.com",
-	hasCloudFlare = true,
+	hasCloudFlare = false,
 
 	genres = GENRES,
 

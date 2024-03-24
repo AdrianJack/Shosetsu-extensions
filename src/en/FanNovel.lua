@@ -68,28 +68,7 @@ return Require("FanNovel")("https://www.fannovels.com", {
 	genres = GENRES,
 
 	listingsMap = {
-		{
-			name = "Recently Added Chapters",
-			increments = false,
-			selector = "#latest-updates .novel-list.grid.col .novel-item a",
-			url = function(data)
-				return "https://www.fannovels.com"
-			end
-		},
-		{
-			name = "Popular Daily Updates",
-			increments = true,
-			url = function(data)
-				return "https://www.fannovels.com/list/all/all-lastdotime-" .. (data[PAGE] - 1) .. ".html"
-			end
-		},
-		{
-			name = "Most Popular",
-			increments = true,
-			url = function(data)
-				return "https://www.fannovels.com/list/all/all-onclick-" .. (data[PAGE] - 1) .. ".html"
-			end
-		},
+	
 		{
 			name = "New to Web Novels",
 			increments = true,

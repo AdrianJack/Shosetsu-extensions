@@ -1,4 +1,4 @@
--- {"id":1308639968,"ver":"1.1.4","libVer":"1.0.0","author":"Jobobby04","dep":["ReadWN>=1.0.11"]}
+-- {"id":1308639965,"ver":"1.1.4","libVer":"1.0.0","author":"Jobobby04","dep":["ReadWN>=1.0.11"]}
 
 local GENRES = {
 	"All",
@@ -59,7 +59,7 @@ local GENRES = {
 }
 
 return Require("FanNovel-Chapters")("https://www.fannovels.com", {
-	id = 1308639968,
+	id = 1308639965,
 	name = "FanNovel-Chapters",
 	shrinkURLNovel = "^.-fannovels%.com",
 	hasCloudFlare = true,

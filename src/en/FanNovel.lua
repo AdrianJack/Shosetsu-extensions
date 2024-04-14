@@ -1,4 +1,4 @@
--- {"id":1308639962,"ver":"1.0.0","libVer":"1.0.0","author":"Jobobby04","dep":["ReadWN>=1.0.11"]}
+-- {"id":1308639962,"ver":"1.0.1","libVer":"1.0.0","author":"Jobobby04","dep":["ReadWN>=1.0.11"]}
 
 local GENRES = {
     "All",
@@ -88,23 +88,43 @@ local GENRES = {
     "Other",
 }
 
-return Require("FanNovel")("https://www.fannovels.com", {
-	id = 1308639962,
-	name = "•FanNovel",
-	imageURL = "https://raw.githubusercontent.com/LordGrindelwald/Shosetsu/main/icons/FanNovel.png",
-	shrinkURLNovel = "^.-fannovels%.com",
-	hasCloudFlare = true,
+return Require("ReadWN")("https://www.fannovels.com", {
+    id = 1308639962,
+    name = "•FanNovel",
+    shrinkURLNovel = "^.-fannovels%.com",
+    hasCloudFlare = true,
 
-	genres = GENRES,
+    genres = GENRES,
 
-	listingsMap = {
-	
-		{
-			name = "New to Web Novels",
-			increments = true,
-			url = function(data)
-				return "https://www.fannovels.com/list/all/all-newstime-" .. (data[PAGE] - 1) .. ".html"
-			end
-		}
-	},
+    listingsMap = {
+        {
+            name = "Recently Added Chapters",
+            increments = false,
+            selector = "#latest-updates .novel-list.grid.col .novel-item a",
+            url = function(data)
+                return "https://www.fannovels.com"
+            end
+        },
+        {
+            name = "Popular Daily Updates",
+            increments = true,
+            url = function(data)
+                return "https://www.fannovels.com/list/all/all-lastdotime-" .. (data[PAGE] - 1) .. ".html"
+            end
+        },
+        {
+            name = "Most Popular",
+            increments = true,
+            url = function(data)
+                return "https://www.fannovels.com/list/all/all-onclick-" .. (data[PAGE] - 1) .. ".html"
+            end
+        },
+        {
+            name = "New to Web Novels",
+            increments = true,
+            url = function(data)
+                return "https://www.fannovels.com/list/all/all-newstime-" .. (data[PAGE] - 1) .. ".html"
+            end
+        }
+    },
 })

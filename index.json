@@ -7,12 +7,12 @@
   ],
   "scripts": [
     {
-      "name": "•FanNovel",
-      "fileName": "FanNovel",
+      "name": "FanNovels",
+      "fileName": "FanNovels",
       "imageURL": "https://raw.githubusercontent.com/LordGrindelwald/Shosetsu/main/icons/FanNovel.png",
       "id": 1308639962,
       "lang": "en",
-      "ver": "1.1.0",
+      "ver": "1.0.2",
       "libVer": "1.0.0",
       "md5": ""
     },

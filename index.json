@@ -8,8 +8,8 @@
   "scripts": [
     {
       "name": "AkashicRecords",
-      "fileName": "FanNovels",
-      "imageURL": "https://raw.githubusercontent.com/LordGrindelwald/Shosetsu/main/icons/FanNovel.png",
+      "fileName": "AkaRec",
+      "imageURL": "https://raw.githubusercontent.com/LordGrindelwald/Shosetsu/main/icons/AkaRec.png",
       "id": 1308639962,
       "lang": "en",
       "ver": "1.1.1",
